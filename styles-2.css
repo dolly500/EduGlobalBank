@@ -1,0 +1,593 @@
+
+@media screen and (min-width: 800px){
+    .mission-2-0{
+        margin: 0 150px 0 150px;
+    }
+}
+/* Our Vision and Our Mission */
+.our-vision-mission{
+    padding: 10px;
+    margin-bottom: 20px !important;
+
+}
+
+.our-vision-mission .mission{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 16px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-vision-mission h3{
+    margin-bottom: 6px;
+    font-size: 30px;
+}
+
+.our-vision-mission .mission p{
+    color: var(--primary-grey-50, #98A2B3);
+    font-size: 14px;
+    text-align: center;
+}
+.mission{
+    
+    border-radius: 20px;
+    padding: 14px;
+    background: #FFF;
+    height: 21vh;
+    text-align: center;
+    box-shadow: 0px 24px 44px 0px rgba(20, 20, 43, 0.04);
+}
+.mission button{
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 768px){
+  .our-story .mission-1, .mission-2-0{
+    margin-top: 30px !important;
+    padding: 20px;
+  }
+
+  .mission-2-0 h2{
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 800px){
+    .our-vision-mission{
+       display: flex;
+       flex-direction: row;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        max-width: 90%;
+        gap: 60px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .mission-1 h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.overall-2{
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.featured-2 h3{
+    font-size: 30px;
+}
+
+.featured-2{
+    text-align: center;
+}
+
+.featured-2 p{
+    text-align: center;
+    color: #98A2B3;
+    font-size: 14px;
+}
+
+/* Featured Products */
+
+.overall-1{
+  background-color: #bdc1cb;
+  padding: 30px;
+  max-height: 155vh;
+}
+
+.overall-1 .featured{
+  margin-top: 2rem;
+}
+
+.overall-1 .about-us button{
+  color: rgb(220, 86, 202);
+  border:1px solid rgb(220, 86, 202);
+  padding: 10px;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.featured-product .item-1 img{
+  width: 100%;
+  height: 30vh;
+  margin-top: .9rem;
+}
+
+.featured-product p{
+  color: #667085;
+}
+
+.featured-product .item-1{
+  padding: 10px;
+} 
+
+.featured-product .item-1 p{
+  font-size: 13.5px;
+  margin-top: 6px;
+}
+
+.featured-product .item-1 h4{
+  margin-top: 6px;
+}
+
+.featured-product .item-1 button{
+  padding: 10px;
+  width: 30vw;
+  font-size: 11px;
+  border-radius: 13px;
+  margin-top: 1rem;
+  border: none;
+  color: white;
+  background: hsl(0, 70%, 51%);
+  border: none;
+}
+.listing{
+  display: flex;
+}
+.listing .list-item{
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.listing .list-item li{
+  list-style: square;
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .listing{
+    display: flex;
+    padding: 10px;
+  }
+  .listing .list-item ul li{
+    margin: 0 auto;
+    list-style: square;
+  }
+}
+@media screen and (min-width: 800px){
+  .featured-product{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .featured-product .item-1 button{
+    width: 7.5vw;
+  }
+
+  .featured-product .item-1{
+    width: 30%;
+  }
+  
+  .overall-1 .about-us button, .overall-1 .featured h3{
+    margin-left: 8rem;
+  }
+}
+
+
+.idea{
+  background: #6c6d6f;
+  max-width: 100%;
+  border-radius: 36px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.idea h3{
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.idea p{
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+
+.idea .btn-1{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.idea button{
+  border-radius: 15px;
+  border: none;
+}
+
+.idea .btn-2{
+  padding: 9px;
+  background-color: white;
+  color: var(--primary-brand-blue-50, #039);
+  border-radius: 13px;
+  font-size: bold;
+}
+
+.idea .btn-3{
+  padding: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  border-radius: 13px;
+  background-color: transparent;
+  color: white;
+}
+
+@media screen and (min-width: 800px){
+  .idea{
+    max-width: 55%;
+    padding: 50px;
+    margin: 16px auto;
+  }
+  .idea h3{
+    font-size: 25px;
+  }
+}
+
+
+/* Company Logo */
+
+.company-logo h3{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.company-logo .logo{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+
+.company-logo .logo img{
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  margin: 20px auto;
+  height: 20vh;
+  width: 20vh;
+}
+
+
+
+
+@media screen and (min-width: 800px){
+  .company-logo .logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  } 
+  .company-logo .logo img{
+    height: 20vh;
+    width: 20vh;
+    margin: 0 auto;
+    
+  }
+}
+
+
+/* masterminds */
+
+.masterminds h3, .masterminds p{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+.masterminds p{
+  color: #98A2B3;
+  font-size: 14px;
+}
+
+.the-mastermind{
+  display: grid;
+  gap: 110px;
+  grid-template-columns: 1fr;
+  padding: 10px;
+  margin-bottom: 90px;
+}
+
+.the-mastermind img{
+  height: 70%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mastermind-0{
+  position: relative;
+  display: inline-block;
+}
+
+.mastermind-0 .overlay-text{
+  position: absolute;
+  top: 48%;
+  margin-top: 93px;
+  
+}
+.mastermind-0 .name-0 p{
+  text-align: left;
+}
+
+.mastermind-0 .name-0 button{
+  margin-bottom: 80px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal_1{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content_1 {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close_1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close_1:hover,
+.close_1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content{
+  margin-bottom: 40px;
+}
+
+/* The Modal (background) */
+.modal_2{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content_2 {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close_2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close_2:hover,
+.close_2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+/* The Modal (background) */
+.modal_3{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content_3 {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close_3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close_3:hover,
+.close_3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/* .mastermind-0 .hidden-content{
+  display: none;
+} */
+
+
+/* Media query for mobile devices */
+/* @media (max-width: 768px) {
+  .readMoreBtn {
+    display: block;
+    margin-top: 10px;
+  }
+} */
+
+/* Modal styles */
+/* .modal {
+  display: none;
+  position: fixed;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+ */
+
+
+
+@media screen and (min-width: 800px){
+  .the-mastermind{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      margin-top: 30px;
+      gap: 100px;
+      margin-bottom: 90px;
+  }
+  .the-mastermind img{
+      display: flex;
+      margin: 0 auto;
+      height: 70%;
+      width: 70%;
+      border-radius: 10px;
+  }
+
+  .overlay-text h3{
+      margin-left: 69px !important;
+  }
+  .mastermind-0 .name-0{
+      margin-left: 69px;
+      margin-bottom: 100px !important;
+      
+  }
+  .mastermind-0 .name-0 p{
+    text-align: left;
+  }
+}
